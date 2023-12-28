@@ -1,0 +1,22 @@
+#Create Product
+POST http://localhost:9000/products
+Content-Type: application/json
+
+    {
+        "name": "iMac",
+        "desc": "A desktop computer",
+        "stock": 100,
+        "price": 1600
+    }
+
+### Get products
+GET http://localhost:9000/products
+Content-Type: application/json
+
+### Update Stock
+PATCH http://localhost:9000/products/3
+Content-Type: application/json
+
+    {
+        "stock": 50
+    }
