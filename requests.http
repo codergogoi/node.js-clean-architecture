@@ -3,10 +3,10 @@ POST http://localhost:9000/products
 Content-Type: application/json
 
     {
-        "name": "iMac",
-        "desc": "A desktop computer",
-        "stock": 100,
-        "price": 1600
+        "name": "Mac Pro",
+        "description": "A desktop computer",
+        "stock": 200,
+        "price": 9000
     }
 
 ### Get products
